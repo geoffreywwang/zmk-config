@@ -35,29 +35,19 @@
             label = "WIN";
             bindings = <
 &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
-&trans   &kp A  &trans     &trans  &trans  &trans   &kp H  &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
                         &kp LCTRL  &trans  &trans  &trans  &trans  &kp RGUI
             >;
         };
 
         Stenography {
-            label = "STENO";
+            label = "STENO ";
             bindings = <
 &none  &kp S  &kp T  &kp P  &kp H  &kp STAR  &kp STAR  &kp F  &kp P  &kp L  &kp T  &kp D
 &none  &kp S  &kp K  &kp W  &kp R  &kp STAR  &kp STAR  &kp R  &kp B  &kp G  &kp S  &kp Z
 &none  &none  &none  &none  &none     &none     &none  &none  &none  &none  &none  &none
                      &kp A  &kp O  &kp HASH     &to 6  &kp E  &kp U
-            >;
-        };
-
-        Gaming {
-            label = "GAME";
-            bindings = <
-    &kp B         &kp TAB  &kp Q  &kp W  &kp E  &kp R  &none  &none  &none  &none  &none  &none
-    &kp G         &kp ESC  &kp A  &kp S  &kp D  &kp F  &none  &none  &none  &none  &none  &none
-&kp LCTRL  &kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V  &none  &none  &none  &none  &none  &none
-                                  &none  &mo 4  &mo 1  &to 6  &none  &none
             >;
         };
 
